@@ -1,0 +1,23 @@
+
+
+POST http://localhost:3000/user/registrar
+Content-Type: application/json
+
+{
+    "nome": "teste",
+    "email": "teste@email.com",
+    "password": "123456"
+}
+
+############
+
+
+# POST http://localhost:3000/product/registrar
+# Content-Type: application/json
+
+# {
+#     "nome": "amortecedor",
+#     "unidade": "UN",
+#     "fornecedor": "COFAP"
+# }
+
